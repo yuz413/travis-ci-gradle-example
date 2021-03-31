@@ -1,0 +1,10 @@
+language: java
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - '$HOME/.gradle'
+script: "./gradlew clean build"
+
