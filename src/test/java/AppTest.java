@@ -25,7 +25,7 @@ class AppTest {
     }
 
     @Test void divTest() {
-        int result = app.div(5, 2);
-        assertEquals(2, result);
+        int result = app.sub(5, 2);
+        assertEquals(2.5, result);
     }
 }
