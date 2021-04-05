@@ -7,7 +7,7 @@ cache:
   directories:
     - '$HOME/.gradle'
 
-script: "gradlew build"
+script: "./gradlew build"
 
 before_install:
   - chmod +x ./gradlew
